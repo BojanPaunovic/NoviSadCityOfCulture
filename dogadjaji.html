@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <title>Novi Sad - Grad kulture</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid kontejner1">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item px-2 nav1">
+                <a class="nav-link" aria-current="page" href="index.html">Početna</a>
+              </li>
+              <li class="nav-item px-2 nav2">
+                <a class="nav-link active" href="dogadjaji.html">Događaji</a>
+              </li>
+              <li class="nav-item px-2 nav3">
+                <a class="nav-link" href="istorija.html">Istorija</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <img src="Novi Sad.jpg" class="img-fluid" alt="Novi Sad slika">
+
+      <center><div class="pocetna">
+        <h1><p class="badge Naslov col-lg-4 col-md-4 col-sm-5">Događaji</p></h1>
+        </div></center>
+
+
+        <br><br>
+
+
+    <div class="row">
+        <!--Prva kartica-->
+        <div class="card col-lg-3 col-md-offset-2 col-md-8 col-sm-9" style="margin-left:4%;margin-top:3%;">
+            <p class="predstava">Predstava</p>
+            <img src="Toska.jpg" class="card-img-top" alt="Predstava 'Toska' ">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size:200%">"Toska"</h5>
+              <p>Srpsko Narodno Pozorište</p>
+              <p class="card-text">19:00 - Scena: Jovan Đorđević<br>
+                Đakomo Pučini<br>
+                TOSKA<br>
+                opera u tri čina<br>
+                Libreto prema drami V. Sardua<br> 
+                napisali L. Ilika i Đ. Đakoza<br>
+                Dirigent: Aleksandar Kojić<br>
+                Režija: Mladen Sabljić<br>
+                Režijska obnova: Katarina Mateović Tasić <br>
+                Predstava traje dva sata i 
+                četrdeset pet minuta, s dve pauze.</p>
+            </div>
+        </div>
+
+            <!--Druga kartica-->
+          
+          <div class="card col-lg-3 col-md-9 col-sm-9 filmDiv" style="margin-left:4%;margin-top:3%;">
+            <p class="film">Film</p>
+            <img src="Komedija.jpg" class="card-img-top" alt="Predstava 'Toska' ">
+            <div class="card-body">
+              <h5 class="card-title" style="font-size:200%">"Komedija na tri sprata"</h5>
+              <p class="card-text">
+                Bioskop KC "Mladost" <br><br>
+                Film „Komedija na tri sprata“ prati komične i često sulude avanture stanara jedne naizgled obične stambene zgrade u Beogradu.<br><br>
+
+                <b>Originalni naslov:</b>	Komedija na tri sprata<br>
+                <b>Početak prikazivanja filma:</b>	20.10.2022<br>
+                <b>Dužina trajanja filma:</b>	100 min<br>
+                <b>Država/Godina:</b>	SRB/2022<br>
+                <b>Žanr:</b>	komedija, drama<br>
+                <b>Glumci:</b>	Slobodan Boda Ninković, Jelisaveta Seka Sablić, Dragan Gagi Jovanović, Vesna Trivalić, Nataša Tapušković<br>
+                <b>Režiser:</b>	Sandra Mitrović<br>
+                <b>Distributer:</b>	ART VISTA d.o.o.</p>
+            </div>
+          </div>
+
+           <!--Treca kartica-->
+        <div class="card col-lg-3 col-md-9 col-sm-9 izlozbaDiv" style="margin-left:4%;margin-top:3%;">
+          <p class="izlozba">Izložba</p>
+          <img src="JedinaMoja.jpg" class="card-img-top" alt="Izlozba 'Jedina Moja'">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size:200%">"Jedina moja"</h5>
+            <p class="card-text">
+                Galerija "FORMA"<br>
+                15. novembar do 4.decembar<br><br>
+                Izložba fotografija „Jedina moja“, autorke Marije Erdelji, otvorena je sinoć u Galeriji FORMA – UPIDIV u Novom Sadu i trajaće do 4 decembra. 
+              <br>  Izložba tematizuje nasilje nad ženama i femicid u Srbiji, a postavlja se povodom „16 dana aktivizma protiv nasilja nad ženama“.</p>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Oficijalni sajt grada Novog Sada</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Posetite sajt grada Novog Sada za više informacija
+            <br><br>
+            <a href="https://novisad.rs" target="_blank">www.novisad.rs</a>
+            <img src="logo_sr.png">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Vrati me na stranicu</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div id="footer" style="color:white">
+            Informacije | Podrška
+            <br>Uslovi korišćenja
+            <br><br>
+            <button data-bs-toggle="modal" data-bs-target="#exampleModal">Novi Sad</button>
+        </div>
+
+</body>
+</html>
